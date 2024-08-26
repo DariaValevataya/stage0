@@ -7,9 +7,9 @@ public class Main {
     numbersPrinter.printIsPositive(-8);
     NumberReverter numberReverter = new NumberReverter();
     numberReverter.revert(453);
-    DigitsSumCalculator digitsSumCalculator= new DigitsSumCalculator();
+    DigitsSumCalculator digitsSumCalculator = new DigitsSumCalculator();
     digitsSumCalculator.calculateSum(345);
-    TemperatureConverter temperatureConverter=new TemperatureConverter();
+    TemperatureConverter temperatureConverter = new TemperatureConverter();
     temperatureConverter.toFahrenheit(34);
   }
 }

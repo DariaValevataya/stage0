@@ -5,7 +5,7 @@ public class GreatestNumberPrinter {
     if (first > second) {
       System.out.println("first = " + first);
     } else if (first < second) {
-      System.out.println("second = "+ second);
+      System.out.println("second = " + second);
     } else {
       System.out.println(first);
     }

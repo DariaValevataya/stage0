@@ -6,7 +6,7 @@ public class MaxNumberPrinter {
       System.out.println("first = " + first);
     } else if (second >= first && second >= third) {
       System.out.println("second = " + second);
-    } else  {
+    } else {
       System.out.println("third = " + third);
     }
   }

@@ -10,6 +10,7 @@ public class Animal {
     this.numberOfPaws = numberOfPaws;
     this.hasFur = hasFur;
   }
+
   public String getDescription() {
     String paw = numberOfPaws > 1 ? "paws" : "paw";
     return hasFur ? "This animal is mostly " + color + ". It has " + numberOfPaws + " " + paw + " and a fur." : "This animal is mostly " + color + ". It has " + numberOfPaws + " paws and no fur.";
